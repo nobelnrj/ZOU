@@ -1,0 +1,76 @@
+@import '../abstract/variables';
+
+footer{
+    .footer-menu{
+        padding: 125px 0 180px;
+        border-bottom: solid 2px #f7f7f7;
+        .company , .invest , .legal , .blog{
+            width: calc(100%/4);
+            float: left;
+        }
+        ul{
+            list-style: none;
+            h6{
+                color: $heading-color;
+                font-size: 16px;
+                font-family: $primary-font;
+                line-height: 40px;
+                font-weight: 700;
+            }
+            li{
+                a{
+                    text-decoration: none;
+                    color: #607d8b;
+                    font-size: 16px;
+                    font-family: $primary-font;
+                    line-height: 40px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .blog{
+            background: $brand-color;
+            padding: 30px 60px 70px;
+            h6{
+                color: #eff7e7;
+                font-size: 18px;
+                font-family: $primary-font;
+                line-height: 40px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            p{
+                color: #eff7e7;
+                font-size: 16px;
+                font-family: $primary-font;
+                letter-spacing: -0.1px;
+                margin-bottom: 15px;
+                span{
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+            .btn{
+                text-align: center;
+                width: 130px;
+                height: 50px;
+                line-height: 50px;
+                background: $secondary-color;
+                color: $brand-color;
+            }
+        }
+    }
+    .footer-content{
+        padding: 70px 0 90px;
+        .logo{
+            float: left;
+        }
+        .copyright{
+            float:right;
+            font-size: 14px;
+            font-family: $primary-font;
+            color: #607d8b;
+            vertical-align: bottom;
+        }
+    }
+}

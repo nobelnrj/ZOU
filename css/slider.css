@@ -1,0 +1,94 @@
+/* testimonial slider*/
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  margin-bottom: 50px;
+  box-shadow: inset 12px 0 40px -4px rgba(255, 255, 255, 0.8), inset -12px 0 40px -4px rgba(255, 255, 255, 0.8); }
+
+.testimonial {
+  margin: 260px 0 0; }
+  .testimonial .section-heading {
+    max-width: 410px;
+    margin-bottom: 100px; }
+  .testimonial .testimonial-item {
+    padding: 50px;
+    margin: 0 20px 30px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    box-shadow: -1px 13px 20px 0 #f0f2f4; }
+  .testimonial .testimonial-details div {
+    display: inline-block;
+    font-size: 0; }
+  .testimonial .testimonial-details .avator {
+    width: 72px;
+    height: 72px;
+    margin-right: 25px; }
+    .testimonial .testimonial-details .avator img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.22); }
+  .testimonial .testimonial-details .details {
+    max-width: 200px; }
+    .testimonial .testimonial-details .details .name {
+      font-family: 'Chivo', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      color: var(--primary-color); }
+    .testimonial .testimonial-details .details .position {
+      font-family: 'Chivo', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      color: var(--grey-color); }
+  .testimonial .testimonial-content {
+    max-height: 98px;
+    overflow: hidden; }
+    .testimonial .testimonial-content q {
+      font-family: 'Chivo', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      color: #324148; }
+  .testimonial .prev, .testimonial .next {
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    line-height: 75px;
+    border-radius: 50%;
+    background: var(--white-color);
+    box-shadow: -1px 13px 20px 0 #f0f2f4;
+    cursor: pointer; }
+  .testimonial .prev {
+    margin-right: 15px; }
+  .testimonial .prev:hover {
+    background: var(--primary-color);
+    box-shadow: 0 25px 25px 0 rgba(118, 196, 125, 0.32); }
+    .testimonial .prev:hover svg g {
+      fill: var(--white-color); }
+  .testimonial .next:hover {
+    background: var(--primary-color);
+    box-shadow: 0 25px 25px 0 rgba(118, 196, 125, 0.32); }
+    .testimonial .next:hover svg g {
+      fill: var(--white-color); }
+
+/*banner*/
+.banner {
+  text-align: center;
+  margin: 180px 0 0;
+  padding: 70px;
+  box-shadow: -1px 25px 20px 0 #f2f2f2; }
+  .banner .section-heading {
+    margin-bottom: 50px; }
+    .banner .section-heading span {
+      color: var(--primary-color); }
+  .banner .btn {
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+    color: var(--white-color);
+    background: var(--primary-color); }

@@ -1,0 +1,44 @@
+@import '../abstract/variables';
+
+.main-heading{
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 64px;
+	font-family: $primary-font;
+	color: $heading-color;
+}
+
+.main-content{
+	font-size: 18px;
+	font-family: $primary-font;
+	line-height: 32px;
+}
+
+.section-heading{
+	font-family: $primary-font;
+	font-size: 36px;
+	font-weight: 700;
+	color: $heading-color;
+}
+
+.section-content{
+	font-family: $primary-font;
+	font-size: 18px;
+	line-height: 32px;
+	color: #324148;
+	margin-bottom: 60px;
+}
+
+.col-heading{
+	font-family: $primary-font;
+	font-size: 30px;
+	line-height: 32px;
+	color: $secondary-color;
+}
+
+.col-content{
+	font-family: $primary-font;
+	font-size: 16px;
+	line-height: 24px;
+	color: #e2efd2;
+}
